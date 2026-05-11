@@ -1,6 +1,6 @@
 // ============================================
 // TEST FINAL - Konsonantengruppen ph, pf, ch, ck, tz
-// Claudia Toth · A0.1 · Lecția 6 · 15 întrebări mixte
+// Claudia Toth · A0 — Fonetică · Lecția 6 · 15 întrebări mixte
 // ============================================
 
 const finalTestData = [

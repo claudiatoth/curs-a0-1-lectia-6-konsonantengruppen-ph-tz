@@ -1,6 +1,6 @@
 // ============================================
 // TEORIE - Konsonantengruppen ph, pf, ch, ck, tz
-// Claudia Toth · Curs A0.1 · Lecția 6 din 7
+// Claudia Toth · A0 — Fonetică · Lecția 6 din 7
 // ============================================
 
 const theoryHTML = `

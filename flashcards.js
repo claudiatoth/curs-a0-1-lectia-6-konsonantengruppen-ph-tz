@@ -1,6 +1,6 @@
 // ============================================
 // FLASHCARDS - Konsonantengruppen ph, pf, ch, ck, tz
-// Claudia Toth · A0.1 · Lecția 6 · 32 carduri
+// Claudia Toth · A0 — Fonetică · Lecția 6 · 32 carduri
 // Audio profesional pre-generat cu Hedda
 // ============================================
 

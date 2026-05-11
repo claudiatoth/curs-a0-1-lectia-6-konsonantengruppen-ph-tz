@@ -1,6 +1,6 @@
 // ============================================
 // EXERCIȚII - Konsonantengruppen ph, pf, ch, ck, tz
-// Claudia Toth · A0.1 · Lecția 6 · 5 exerciții
+// Claudia Toth · A0 — Fonetică · Lecția 6 · 5 exerciții
 // ============================================
 
 // ============================================
