@@ -295,7 +295,7 @@ const theoryHTML = `
                             iețt<br>
                             Plaț<br>
                             Bliț<br>
-                            pucăn (NU pußăn — cu ț)<br>
+                            puțăn (cu ț, NU pucăn)<br>
                             Viț<br>
                             <span class="ro-translation">pisica · a sta jos · acum · piața · fulgerul · a curăța · gluma</span>
                         </td>

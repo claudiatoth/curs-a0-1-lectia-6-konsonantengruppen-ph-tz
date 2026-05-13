@@ -44,7 +44,7 @@ const flashcardsData = [
     { de: "sitzen", ro: "a sta jos · → zițăn", audio: "audio/letters/sitzen.wav" },
     { de: "jetzt", ro: "acum · → iețt", audio: "audio/letters/jetzt.wav" },
     { de: "der Platz", ro: "piața · → Plaț", audio: "audio/letters/platz.wav" },
-    { de: "putzen", ro: "a curăța · → pucăn", audio: "audio/letters/putzen.wav" },
+    { de: "putzen", ro: "a curăța · → puțăn", audio: "audio/letters/putzen.wav" },
     { de: "tanzen", ro: "a dansa · z (NU tz!) după consoana n → tanțăn", audio: "audio/letters/tanzen.wav" }
 ];
 
