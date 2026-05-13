@@ -25,27 +25,14 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>das Photo</strong> (sau Foto)<br>
-                            <strong>die Philosophie</strong><br>
-                            <strong>die Phase</strong><br>
-                            <strong>das Phänomen</strong><br>
-                            <strong>der Phönix</strong><br>
-                            <strong>das Telephon</strong> (sau Telefon)
-                        </td>
-                        <td>
-                            Foto<br>
-                            Filosofi:<br>
-                            Faze<br>
-                            Fɛnome:n<br>
-                            Fø:nics<br>
-                            Telefon<br>
-                            <span class="ro-translation">poza · filosofia · faza · fenomenul · phoenix-ul · telefonul</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>das Photo</strong> (sau Foto)</td><td>Foto</td><td><span class="ro-translation">poza</span></td></tr>
+                    <tr><td><strong>die Philosophie</strong></td><td>Filosofi:</td><td><span class="ro-translation">filosofia</span></td></tr>
+                    <tr><td><strong>die Phase</strong></td><td>Faze</td><td><span class="ro-translation">faza</span></td></tr>
+                    <tr><td><strong>das Phänomen</strong></td><td>Fɛnome:n</td><td><span class="ro-translation">fenomenul</span></td></tr>
+                    <tr><td><strong>der Phönix</strong></td><td>Fø:nics</td><td><span class="ro-translation">phoenix-ul</span></td></tr>
+                    <tr><td><strong>das Telephon</strong> (sau Telefon)</td><td>Telefon</td><td><span class="ro-translation">telefonul</span></td></tr>
                 </tbody>
             </table>
 
@@ -77,27 +64,14 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>die Pfote</strong><br>
-                            <strong>der Apfel</strong><br>
-                            <strong>die Pflege</strong><br>
-                            <strong>das Pferd</strong><br>
-                            <strong>die Pfanne</strong><br>
-                            <strong>die Pflicht</strong>
-                        </td>
-                        <td>
-                            Pfo:te<br>
-                            Apfăl<br>
-                            Pfle:ge<br>
-                            Pfe:rd<br>
-                            Pfane<br>
-                            Pflicht<br>
-                            <span class="ro-translation">laba (de animal) · mărul · grija/îngrijirea · calul · tigaia · datoria/obligația</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>die Pfote</strong></td><td>Pfo:te</td><td><span class="ro-translation">laba (de animal)</span></td></tr>
+                    <tr><td><strong>der Apfel</strong></td><td>Apfăl</td><td><span class="ro-translation">mărul</span></td></tr>
+                    <tr><td><strong>die Pflege</strong></td><td>Pfle:ge</td><td><span class="ro-translation">grija / îngrijirea</span></td></tr>
+                    <tr><td><strong>das Pferd</strong></td><td>Pfe:rd</td><td><span class="ro-translation">calul</span></td></tr>
+                    <tr><td><strong>die Pfanne</strong></td><td>Pfane</td><td><span class="ro-translation">tigaia</span></td></tr>
+                    <tr><td><strong>die Pflicht</strong></td><td>Pflicht</td><td><span class="ro-translation">datoria / obligația</span></td></tr>
                 </tbody>
             </table>
 
@@ -129,52 +103,40 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Regulă</th><th>Sunet</th><th>Exemple</th></tr></thead>
+                <thead><tr><th>Regulă</th><th>Sunet</th><th>Exemplu · traducere</th></tr></thead>
                 <tbody>
                     <tr>
-                        <td><strong>ch după i, e, ä, ö, ü, ei, eu, l, n, r</strong></td>
-                        <td><strong>„h" moale</strong> (palatal — un fel de șoaptă)</td>
-                        <td>
-                            <strong>ich</strong> → ih<br>
-                            <strong>mich, dich</strong> → mih, dih<br>
-                            <strong>China, die Chemie</strong> → hina, hemi:<br>
-                            <strong>das Mädchen</strong> → mɛdhăn<br>
-                            <span class="ro-translation">eu · pe mine, pe tine · China, chimia · fata</span>
-                        </td>
+                        <td rowspan="4"><strong>ch după i, e, ä, ö, ü, ei, eu, l, n, r</strong></td>
+                        <td rowspan="4"><strong>„h" moale</strong> (palatal — un fel de șoaptă)</td>
+                        <td><strong>ich</strong> → ih · <span class="ro-translation">eu</span></td>
                     </tr>
+                    <tr><td><strong>mich, dich</strong> → mih, dih · <span class="ro-translation">pe mine, pe tine</span></td></tr>
+                    <tr><td><strong>China, die Chemie</strong> → hina, hemi: · <span class="ro-translation">China, chimia</span></td></tr>
+                    <tr><td><strong>das Mädchen</strong> → mɛdhăn · <span class="ro-translation">fata</span></td></tr>
                     <tr>
-                        <td><strong>ch după a, o, u, au</strong></td>
-                        <td><strong>„h" gutural</strong> (din gât, ca un râs)</td>
-                        <td>
-                            <strong>acht</strong> → aht<br>
-                            <strong>brachte</strong> → brahte<br>
-                            <strong>das Buch</strong> → bu:h<br>
-                            <strong>das Loch</strong> → lo:h<br>
-                            <span class="ro-translation">opt · a adus · cartea · gaura</span>
-                        </td>
+                        <td rowspan="4"><strong>ch după a, o, u, au</strong></td>
+                        <td rowspan="4"><strong>„h" gutural</strong> (din gât, ca un râs)</td>
+                        <td><strong>acht</strong> → aht · <span class="ro-translation">opt</span></td>
                     </tr>
+                    <tr><td><strong>brachte</strong> → brahte · <span class="ro-translation">a adus</span></td></tr>
+                    <tr><td><strong>das Buch</strong> → bu:h · <span class="ro-translation">cartea</span></td></tr>
+                    <tr><td><strong>das Loch</strong> → lo:h · <span class="ro-translation">gaura</span></td></tr>
                     <tr>
-                        <td><strong>Ch- la început + a/o/l/r</strong> (cuvinte din greacă)</td>
-                        <td><strong>„c"</strong> (ca în „casă")</td>
-                        <td>
-                            <strong>Christian</strong> → Cristian<br>
-                            <strong>das Chlor</strong> → Clor<br>
-                            <strong>das Chaos</strong> → Caos<br>
-                            <strong>der Chor</strong> → Cor<br>
-                            <strong>der Charakter</strong> → Caracter<br>
-                            <span class="ro-translation">Cristian · clorul · haosul · corul · caracterul</span>
-                        </td>
+                        <td rowspan="5"><strong>Ch- la început + a/o/l/r</strong> (cuvinte din greacă)</td>
+                        <td rowspan="5"><strong>„c"</strong> (ca în „casă")</td>
+                        <td><strong>Christian</strong> → Cristian · <span class="ro-translation">Cristian</span></td>
                     </tr>
+                    <tr><td><strong>das Chlor</strong> → Clor · <span class="ro-translation">clorul</span></td></tr>
+                    <tr><td><strong>das Chaos</strong> → Caos · <span class="ro-translation">haosul</span></td></tr>
+                    <tr><td><strong>der Chor</strong> → Cor · <span class="ro-translation">corul</span></td></tr>
+                    <tr><td><strong>der Charakter</strong> → Caracter · <span class="ro-translation">caracterul</span></td></tr>
                     <tr>
-                        <td><strong>Ch- în cuvinte din franceză</strong></td>
-                        <td><strong>„ș"</strong></td>
-                        <td>
-                            <strong>die Chiffre</strong> → Șifre<br>
-                            <strong>der Chef</strong> → Șef<br>
-                            <strong>der Champagner</strong> → Șampanjer<br>
-                            <span class="ro-translation">cifrul · șeful · șampania</span>
-                        </td>
+                        <td rowspan="3"><strong>Ch- în cuvinte din franceză</strong></td>
+                        <td rowspan="3"><strong>„ș"</strong></td>
+                        <td><strong>die Chiffre</strong> → Șifre · <span class="ro-translation">cifrul</span></td>
                     </tr>
+                    <tr><td><strong>der Chef</strong> → Șef · <span class="ro-translation">șeful</span></td></tr>
+                    <tr><td><strong>der Champagner</strong> → Șampanjer · <span class="ro-translation">șampania</span></td></tr>
                 </tbody>
             </table>
 
@@ -210,29 +172,15 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>der Klecks</strong><br>
-                            <strong>der Rücken</strong><br>
-                            <strong>dick</strong><br>
-                            <strong>das Glück</strong><br>
-                            <strong>packen</strong><br>
-                            <strong>der Schock</strong><br>
-                            <strong>backen</strong>
-                        </td>
-                        <td>
-                            Clecs<br>
-                            Rücăn<br>
-                            dic<br>
-                            Glüc<br>
-                            pacăn<br>
-                            Șoc<br>
-                            bacăn<br>
-                            <span class="ro-translation">pata · spatele · gros · norocul · a împacheta · șocul · a coace</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>der Klecks</strong></td><td>Clecs</td><td><span class="ro-translation">pata</span></td></tr>
+                    <tr><td><strong>der Rücken</strong></td><td>Rücăn</td><td><span class="ro-translation">spatele</span></td></tr>
+                    <tr><td><strong>dick</strong></td><td>dic</td><td><span class="ro-translation">gros</span></td></tr>
+                    <tr><td><strong>das Glück</strong></td><td>Glüc</td><td><span class="ro-translation">norocul</span></td></tr>
+                    <tr><td><strong>packen</strong></td><td>pacăn</td><td><span class="ro-translation">a împacheta</span></td></tr>
+                    <tr><td><strong>der Schock</strong></td><td>Șoc</td><td><span class="ro-translation">șocul</span></td></tr>
+                    <tr><td><strong>backen</strong></td><td>bacăn</td><td><span class="ro-translation">a coace</span></td></tr>
                 </tbody>
             </table>
 
@@ -277,29 +225,15 @@ const theoryHTML = `
             </div>
 
             <table class="theory-table">
-                <thead><tr><th>Cum se scrie</th><th>Cum se citește</th></tr></thead>
+                <thead><tr><th>Cuvânt</th><th>Pronunție</th><th>Traducere</th></tr></thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <strong>die Katze</strong><br>
-                            <strong>sitzen</strong><br>
-                            <strong>jetzt</strong><br>
-                            <strong>der Platz</strong><br>
-                            <strong>der Blitz</strong><br>
-                            <strong>putzen</strong><br>
-                            <strong>der Witz</strong>
-                        </td>
-                        <td>
-                            Kațe<br>
-                            zițăn<br>
-                            iețt<br>
-                            Plaț<br>
-                            Bliț<br>
-                            puțăn (cu ț, NU pucăn)<br>
-                            Viț<br>
-                            <span class="ro-translation">pisica · a sta jos · acum · piața · fulgerul · a curăța · gluma</span>
-                        </td>
-                    </tr>
+                    <tr><td><strong>die Katze</strong></td><td>Kațe</td><td><span class="ro-translation">pisica</span></td></tr>
+                    <tr><td><strong>sitzen</strong></td><td>zițăn</td><td><span class="ro-translation">a sta jos</span></td></tr>
+                    <tr><td><strong>jetzt</strong></td><td>iețt</td><td><span class="ro-translation">acum</span></td></tr>
+                    <tr><td><strong>der Platz</strong></td><td>Plaț</td><td><span class="ro-translation">piața</span></td></tr>
+                    <tr><td><strong>der Blitz</strong></td><td>Bliț</td><td><span class="ro-translation">fulgerul</span></td></tr>
+                    <tr><td><strong>putzen</strong></td><td>puțăn (cu ț, NU pucăn)</td><td><span class="ro-translation">a curăța</span></td></tr>
+                    <tr><td><strong>der Witz</strong></td><td>Viț</td><td><span class="ro-translation">gluma</span></td></tr>
                 </tbody>
             </table>
 
