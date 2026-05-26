@@ -6,44 +6,44 @@
 
 const flashcardsData = [
     // ========== Ph (5 carduri) ==========
-    { de: "das Photo", ro: "poza · ph sună ca f → Foto", audio: "audio/letters/photo.wav" },
-    { de: "die Philosophie", ro: "filosofia · ph sună ca f → Filosofi:", audio: "audio/letters/philosophie.wav" },
-    { de: "die Phase", ro: "faza · ph sună ca f → Faze", audio: "audio/letters/phase.wav" },
-    { de: "das Phänomen", ro: "fenomenul · ph sună ca f → Fɛnome:n", audio: "audio/letters/phaenomen.wav" },
-    { de: "der Phönix", ro: "phoenix-ul · ph sună ca f → Fø:nics", audio: "audio/letters/phoenix.wav" },
+    { de: "das Photo · die Photos", ro: "poza · pozele · ph sună ca f → Foto", audio: "audio/letters/photo.wav" },
+    { de: "die Philosophie · die Philosophien", ro: "filosofia · filosofiile · ph sună ca f → Filosofi:", audio: "audio/letters/philosophie.wav" },
+    { de: "die Phase · die Phasen", ro: "faza · fazele · ph sună ca f → Faze", audio: "audio/letters/phase.wav" },
+    { de: "das Phänomen · die Phänomene", ro: "fenomenul · fenomenele · ph sună ca f → Fɛnome:n", audio: "audio/letters/phaenomen.wav" },
+    { de: "der Phönix · die Phönixe", ro: "phoenix-ul · phoenix-ii · ph sună ca f → Fø:nics", audio: "audio/letters/phoenix.wav" },
 
     // ========== Pf (6 carduri) ==========
-    { de: "die Pfote", ro: "laba (de animal) · pf este sunet unic pf → Pfo:te", audio: "audio/letters/pfote.wav" },
-    { de: "der Apfel", ro: "mărul · → Apfăl (NU se citește afăl!)", audio: "audio/letters/apfel.wav" },
-    { de: "die Pflege", ro: "grija / îngrijirea · → Pfle:ge", audio: "audio/letters/pflege.wav" },
-    { de: "das Pferd", ro: "calul · → Pfe:rd", audio: "audio/letters/pferd.wav" },
-    { de: "die Pfanne", ro: "tigaia · → Pfane", audio: "audio/letters/pfanne.wav" },
-    { de: "die Pflicht", ro: "datoria, obligația · → Pflicht", audio: "audio/letters/pflicht.wav" },
+    { de: "die Pfote · die Pfoten", ro: "laba · labele (de animal) · pf este sunet unic pf → Pfo:te", audio: "audio/letters/pfote.wav" },
+    { de: "der Apfel · die Äpfel", ro: "mărul · merele · → Apfăl (NU se citește afăl!)", audio: "audio/letters/apfel.wav" },
+    { de: "die Pflege · die Pflegen", ro: "grija · grijile / îngrijirea · îngrijirile · → Pfle:ge", audio: "audio/letters/pflege.wav" },
+    { de: "das Pferd · die Pferde", ro: "calul · caii · → Pfe:rd", audio: "audio/letters/pferd.wav" },
+    { de: "die Pfanne · die Pfannen", ro: "tigaia · tigăile · → Pfane", audio: "audio/letters/pfanne.wav" },
+    { de: "die Pflicht · die Pflichten", ro: "datoria · datoriile, obligația · obligațiile · → Pflicht", audio: "audio/letters/pflicht.wav" },
 
     // ========== Ch — 4 sunete (8 carduri) ==========
     { de: "ich", ro: "eu · ch după i sună ca h moale → ih", audio: "audio/letters/ich.wav" },
     { de: "mich / dich", ro: "pe mine / pe tine · ch după i sună ca h moale → mih, dih", audio: "audio/letters/mich-dich.wav" },
     { de: "acht", ro: "opt · ch după a sună ca h gutural → aht", audio: "audio/letters/acht.wav" },
-    { de: "das Buch", ro: "cartea · ch după u sună ca h gutural → bu:h", audio: "audio/letters/buch.wav" },
+    { de: "das Buch · die Bücher", ro: "cartea · cărțile · ch după u sună ca h gutural → bu:h", audio: "audio/letters/buch.wav" },
     { de: "Christian", ro: "Cristian · Ch + i de obicei sună ca c în nume proprii → Cristian", audio: "audio/letters/christian.wav" },
-    { de: "der Chor", ro: "corul · Ch- + o sună ca c → Cor", audio: "audio/letters/chor.wav" },
-    { de: "der Chef", ro: "șeful · cuvânt din franceză, ch sună ca ș → Șef", audio: "audio/letters/chef.wav" },
-    { de: "die Chiffre", ro: "cifrul · cuvânt din franceză, ch sună ca ș → Șifre", audio: "audio/letters/chiffre.wav" },
+    { de: "der Chor · die Chöre", ro: "corul · corurile · Ch- + o sună ca c → Cor", audio: "audio/letters/chor.wav" },
+    { de: "der Chef · die Chefs", ro: "șeful · șefii · cuvânt din franceză, ch sună ca ș → Șef", audio: "audio/letters/chef.wav" },
+    { de: "die Chiffre · die Chiffren", ro: "cifrul · cifrurile · cuvânt din franceză, ch sună ca ș → Șifre", audio: "audio/letters/chiffre.wav" },
 
     // ========== Ck (7 carduri) ==========
-    { de: "der Klecks", ro: "pata · ck după vocală scurtă sună ca c → Clecs", audio: "audio/letters/klecks.wav" },
-    { de: "der Rücken", ro: "spatele · → Rücăn", audio: "audio/letters/ruecken.wav" },
-    { de: "dick", ro: "gros · → dic", audio: "audio/letters/dick.wav" },
-    { de: "das Glück", ro: "norocul · → Glüc", audio: "audio/letters/glueck.wav" },
-    { de: "packen", ro: "a împacheta · → pacăn", audio: "audio/letters/packen.wav" },
-    { de: "der Schock", ro: "șocul · → Șoc", audio: "audio/letters/schock.wav" },
+    { de: "der Klecks · die Kleckse", ro: "pata · petele (de cerneală) · ck după vocală scurtă sună ca c → Clecs", audio: "audio/letters/klecks.wav" },
+    { de: "der Rücken · die Rücken", ro: "spatele · spatele (plural identic) · → Rücăn", audio: "audio/letters/ruecken.wav" },
+    { de: "dick", ro: "gros (adjectiv) · → dic", audio: "audio/letters/dick.wav" },
+    { de: "das Glück", ro: "norocul (substantiv nenumărabil — abstract) · → Glüc", audio: "audio/letters/glueck.wav" },
+    { de: "packen", ro: "a împacheta (verb) · → pacăn", audio: "audio/letters/packen.wav" },
+    { de: "der Schock · die Schocks", ro: "șocul · șocurile · → Șoc", audio: "audio/letters/schock.wav" },
     { de: "krank", ro: "bolnav · k după consoana n (NU ck!) → cranc", audio: "audio/letters/krank.wav" },
 
     // ========== Tz (6 carduri) ==========
-    { de: "die Katze", ro: "pisica · tz după vocală scurtă sună ca ț → Kațe", audio: "audio/letters/katze.wav" },
+    { de: "die Katze · die Katzen", ro: "pisica · pisicile · tz după vocală scurtă sună ca ț → Kațe", audio: "audio/letters/katze.wav" },
     { de: "sitzen", ro: "a sta jos · → zițăn", audio: "audio/letters/sitzen.wav" },
     { de: "jetzt", ro: "acum · → iețt", audio: "audio/letters/jetzt.wav" },
-    { de: "der Platz", ro: "piața · → Plaț", audio: "audio/letters/platz.wav" },
+    { de: "der Platz · die Plätze", ro: "piața (loc) · piețele / locul · locurile · → Plaț", audio: "audio/letters/platz.wav" },
     { de: "putzen", ro: "a curăța · → puțăn", audio: "audio/letters/putzen.wav" },
     { de: "tanzen", ro: "a dansa · z (NU tz!) după consoana n → tanțăn", audio: "audio/letters/tanzen.wav" }
 ];
