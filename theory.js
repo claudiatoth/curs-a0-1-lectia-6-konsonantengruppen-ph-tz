@@ -23,7 +23,7 @@ const theoryHTML = `
                 <p>Grupul <strong>ph</strong> se citește mereu ca <strong>„f"</strong> — la fel ca litera „f" simplă. Apare doar în cuvinte împrumutate din <strong>greacă</strong> sau <strong>latină</strong>.</p>
                 <p style="margin-top: 8px;">⚠️ În germana modernă, multe cuvinte cu „ph" au fost simplificate la „f" (Foto, Telefon — scrise normal). Dar formele cu „ph" rămân acceptate.</p>
             </div>
-            <div class="theory-box" style="background: #fffbeb; border-left: 4px solid #f59e0b; margin-bottom: 14px;">
+            <div class="theory-box" style="background: #F5F0E8; border-left: 4px solid #D4A574; margin-bottom: 14px;">
                 <h4>💡 Înainte să începem — Diacritice germane fără tastatură germană</h4>
                 <p>„Nu ai tastatură germană? <strong>Niciun stres!</strong> La toate exercițiile poți scrie:</p>
                 <ul style="margin: 6px 0 4px 18px;">
@@ -87,7 +87,7 @@ const theoryHTML = `
                 </tbody>
             </table>
 
-            <div class="theory-box" style="background: #fef3c7; border-color: #f59e0b;">
+            <div class="theory-box" style="background: #F5F0E8; border-color: #D4A574;">
                 <h4>⚠️ Capcană pentru români</h4>
                 <p>Tendința naturală e să „înghiți" p-ul și să spui doar „f" (Apfel → „afăl"). <strong>Greșit!</strong></p>
                 <p style="margin-top: 8px;">Trebuie să auzi clar AMBELE sunete: p + f. Exersează cu „Apfel" pronunțat „A<strong>p</strong>fel" — accent pe p.</p>
@@ -152,7 +152,7 @@ const theoryHTML = `
                 </tbody>
             </table>
 
-            <div class="theory-box" style="background: #fef3c7; border-color: #f59e0b;">
+            <div class="theory-box" style="background: #F5F0E8; border-color: #D4A574;">
                 <h4>💡 Trucul de aur pentru ch</h4>
                 <ul>
                     <li>După <strong>i, e</strong> și consoane → „h" moale (ca o șoaptă)</li>

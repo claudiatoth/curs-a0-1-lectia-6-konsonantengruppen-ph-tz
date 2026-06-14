@@ -87,7 +87,7 @@ function buildEx2() {
     if (!c) return;
     let html = `<div class="exercise-instruction"><strong>📝 Completează cu pf, ph sau f.</strong><br><em>Reamintire:</em> pf = sunet unic (p+f) · ph = „f" (cuvânt din greacă) · f = „f" (cuvânt german).</div>`;
     ex2Data.forEach((it, i) => {
-        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#6b7280;">💡 ${it.hint}</small></label><input type="text" id="ex2-${it.id}" placeholder="pf / ph / f"></div><div class="feedback" id="ex2-f${it.id}"></div></div>`;
+        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#5A5147;">💡 ${it.hint}</small></label><input type="text" id="ex2-${it.id}" placeholder="pf / ph / f"></div><div class="feedback" id="ex2-f${it.id}"></div></div>`;
     });
     c.innerHTML = html;
 }
@@ -177,7 +177,7 @@ function buildEx4() {
     if (!c) return;
     let html = `<div class="exercise-instruction"><strong>📝 Completează cu k sau ck.</strong><br><em>Regulă:</em> <strong>ck</strong> doar după vocală scurtă (dick, packen). <strong>k</strong> simplu după consoanele l, m, n, r (krank, denken).</div>`;
     ex4Data.forEach((it, i) => {
-        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#6b7280;">💡 ${it.hint}</small></label><input type="text" id="ex4-${it.id}" placeholder="k sau ck"></div><div class="feedback" id="ex4-f${it.id}"></div></div>`;
+        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#5A5147;">💡 ${it.hint}</small></label><input type="text" id="ex4-${it.id}" placeholder="k sau ck"></div><div class="feedback" id="ex4-f${it.id}"></div></div>`;
     });
     c.innerHTML = html;
 }
@@ -219,7 +219,7 @@ function buildEx5() {
     if (!c) return;
     let html = `<div class="exercise-instruction"><strong>📝 Completează cu z sau tz.</strong><br><em>Regulă:</em> <strong>tz</strong> doar după vocală scurtă (Katze, sitzen). <strong>z</strong> simplu după consoanele l, m, n, r (tanzen, Herz).</div>`;
     ex5Data.forEach((it, i) => {
-        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#6b7280;">💡 ${it.hint}</small></label><input type="text" id="ex5-${it.id}" placeholder="z sau tz"></div><div class="feedback" id="ex5-f${it.id}"></div></div>`;
+        html += `<div class="exercise-item"><span class="exercise-number">${i+1}</span><div class="input-group"><label>${it.word} <small style="color:#5A5147;">💡 ${it.hint}</small></label><input type="text" id="ex5-${it.id}" placeholder="z sau tz"></div><div class="feedback" id="ex5-f${it.id}"></div></div>`;
     });
     c.innerHTML = html;
 }
