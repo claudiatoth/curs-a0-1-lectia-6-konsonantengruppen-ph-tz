@@ -48,7 +48,7 @@ const theoryHTML = `
                 </tbody>
             </table>
 
-            <div class="theory-box" style="background: #dbeafe; border-color: #3b82f6;">
+            <div class="theory-box" style="background: #dbeafe; border-color: #D4A574;">
                 <h4>💡 Reține</h4>
                 <p>Dacă vezi <strong>ph</strong>, gândește-te „f". Sunetul e identic cu litera „f" simplă.</p>
             </div>
@@ -207,7 +207,7 @@ const theoryHTML = `
                 </ul>
             </div>
 
-            <div class="theory-box" style="background: #dbeafe; border-color: #3b82f6;">
+            <div class="theory-box" style="background: #dbeafe; border-color: #D4A574;">
                 <h4>💡 Regulă simplă</h4>
                 <ul>
                     <li><strong>Vocală scurtă + ck</strong>: dick, packen, Glück</li>
@@ -260,7 +260,7 @@ const theoryHTML = `
                 </ul>
             </div>
 
-            <div class="theory-box" style="background: #dbeafe; border-color: #3b82f6;">
+            <div class="theory-box" style="background: #dbeafe; border-color: #D4A574;">
                 <h4>💡 Regulă generală pentru scharfes (ck + tz)</h4>
                 <p>Atât <strong>ck</strong> cât și <strong>tz</strong> urmează aceeași logică:</p>
                 <ul>
