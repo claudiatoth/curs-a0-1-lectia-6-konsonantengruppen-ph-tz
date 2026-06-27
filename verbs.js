@@ -43,7 +43,7 @@ function buildVerbs() {
         '<img src="images/andreea.png" alt="Andreea" class="andreea-note-avatar">' +
         '<div class="andreea-note-content">' +
         '<div class="speaker">Andreea îți spune:</div>' +
-        '<div class="text">„La A0 (fonetică) înveți verbele DOAR la prezent (Präsens). Trecutul vine în A1+. Lecția asta e pură fonetică — reluăm sein (din L5) și heißen (din L1) ca referință. 🦋"</div>' +
+        '<div class="text">„La A0 (fonetică) înveți verbele DOAR la prezent (Präsens). Trecutul vine în A1+. Lecția asta e pură fonetică — reluăm sein (din L5) și heißen (din L1) ca referință. <img src=\"images/butterfly-emerald.png\" class=\"bf-inline\" alt=\"\">"</div>' +
         '</div></div>';
 
     verbsData.forEach(function (v, i) {

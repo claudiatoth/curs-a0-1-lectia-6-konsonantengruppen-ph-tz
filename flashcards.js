@@ -6,25 +6,25 @@
 
 const flashcardsData = [
     // ========== Ph (5 carduri) ==========
-    { de: "das Photo · die Photos", ro: "poza · pozele · ph sună ca f → Foto", audio: "audio/letters/photo.wav" },
+    { de: "das Photo · die Photos", ro: "poza · pozele · ph sună ca f → Foto", audio: "audio/letters/photo.wav", icon: "ph-foto", gen: "n" },
     { de: "die Philosophie · die Philosophien", ro: "filosofia · filosofiile · ph sună ca f → Filosofi:", audio: "audio/letters/philosophie.wav" },
     { de: "die Phase · die Phasen", ro: "faza · fazele · ph sună ca f → Faze", audio: "audio/letters/phase.wav" },
     { de: "das Phänomen · die Phänomene", ro: "fenomenul · fenomenele · ph sună ca f → Fɛnome:n", audio: "audio/letters/phaenomen.wav" },
-    { de: "der Phönix · die Phönixe", ro: "phoenix-ul · phoenix-ii · ph sună ca f → Fø:nics", audio: "audio/letters/phoenix.wav" },
+    { de: "der Phönix · die Phönixe", ro: "phoenix-ul · phoenix-ii · ph sună ca f → Fø:nics", audio: "audio/letters/phoenix.wav", icon: "ph-phoenix", gen: "m" },
 
     // ========== Pf (6 carduri) ==========
-    { de: "die Pfote · die Pfoten", ro: "laba · labele (de animal) · pf este sunet unic pf → Pfo:te", audio: "audio/letters/pfote.wav" },
-    { de: "der Apfel · die Äpfel", ro: "mărul · merele · → Apfăl (NU se citește afăl!)", audio: "audio/letters/apfel.wav" },
+    { de: "die Pfote · die Pfoten", ro: "laba · labele (de animal) · pf este sunet unic pf → Pfo:te", audio: "audio/letters/pfote.wav", icon: "pf-pfote", gen: "f" },
+    { de: "der Apfel · die Äpfel", ro: "mărul · merele · → Apfăl (NU se citește afăl!)", audio: "audio/letters/apfel.wav", icon: "pf-apfel", gen: "m" },
     { de: "die Pflege · die Pflegen", ro: "grija · grijile / îngrijirea · îngrijirile · → Pfle:ge", audio: "audio/letters/pflege.wav" },
-    { de: "das Pferd · die Pferde", ro: "calul · caii · → Pfe:rd", audio: "audio/letters/pferd.wav" },
-    { de: "die Pfanne · die Pfannen", ro: "tigaia · tigăile · → Pfane", audio: "audio/letters/pfanne.wav" },
+    { de: "das Pferd · die Pferde", ro: "calul · caii · → Pfe:rd", audio: "audio/letters/pferd.wav", icon: "pf-pferd", gen: "n" },
+    { de: "die Pfanne · die Pfannen", ro: "tigaia · tigăile · → Pfane", audio: "audio/letters/pfanne.wav", icon: "pf-pfanne", gen: "f" },
     { de: "die Pflicht · die Pflichten", ro: "datoria · datoriile, obligația · obligațiile · → Pflicht", audio: "audio/letters/pflicht.wav" },
 
     // ========== Ch — 4 sunete (8 carduri) ==========
     { de: "ich", ro: "eu · ch după i sună ca h moale → ih", audio: "audio/letters/ich.wav" },
     { de: "mich / dich", ro: "pe mine / pe tine · ch după i sună ca h moale → mih, dih", audio: "audio/letters/mich-dich.wav" },
     { de: "acht", ro: "opt · ch după a sună ca h gutural → aht", audio: "audio/letters/acht.wav" },
-    { de: "das Buch · die Bücher", ro: "cartea · cărțile · ch după u sună ca h gutural → bu:h", audio: "audio/letters/buch.wav" },
+    { de: "das Buch · die Bücher", ro: "cartea · cărțile · ch după u sună ca h gutural → bu:h", audio: "audio/letters/buch.wav", icon: "ch-buch", gen: "n" },
     { de: "Christian", ro: "Cristian · Ch + i de obicei sună ca c în nume proprii → Cristian", audio: "audio/letters/christian.wav" },
     { de: "der Chor · die Chöre", ro: "corul · corurile · Ch- + o sună ca c → Cor", audio: "audio/letters/chor.wav" },
     { de: "der Chef · die Chefs", ro: "șeful · șefii · cuvânt din franceză, ch sună ca ș → Șef", audio: "audio/letters/chef.wav" },
@@ -40,10 +40,10 @@ const flashcardsData = [
     { de: "krank", ro: "bolnav · k după consoana n (NU ck!) → cranc", audio: "audio/letters/krank.wav" },
 
     // ========== Tz (6 carduri) ==========
-    { de: "die Katze · die Katzen", ro: "pisica · pisicile · tz după vocală scurtă sună ca ț → Kațe", audio: "audio/letters/katze.wav" },
+    { de: "die Katze · die Katzen", ro: "pisica · pisicile · tz după vocală scurtă sună ca ț → Kațe", audio: "audio/letters/katze.wav", icon: "tz-katze", gen: "f" },
     { de: "sitzen", ro: "a sta jos · → zițăn", audio: "audio/letters/sitzen.wav" },
     { de: "jetzt", ro: "acum · → iețt", audio: "audio/letters/jetzt.wav" },
-    { de: "der Platz · die Plätze", ro: "piața (loc) · piețele / locul · locurile · → Plaț", audio: "audio/letters/platz.wav" },
+    { de: "der Platz · die Plätze", ro: "piața (loc) · piețele / locul · locurile · → Plaț", audio: "audio/letters/platz.wav", icon: "tz-platz", gen: "m" },
     { de: "putzen", ro: "a curăța · → puțăn", audio: "audio/letters/putzen.wav" },
     { de: "tanzen", ro: "a dansa · z (NU tz!) după consoana n → tanțăn", audio: "audio/letters/tanzen.wav" }
 ];
@@ -63,6 +63,7 @@ function buildFlashcards() {
         <div class="flashcard" id="flashcard" onclick="flipCard()">
             <button class="flashcard-audio-btn" onclick="playFlashcardAudio(event)" title="Ascultă pronunția">🔊</button>
             <div class="flashcard-content">
+                <div class="flashcard-pic" id="flashcard-pic"></div>
                 <div class="de" id="flashcard-de">${flashcardsData[0].de}</div>
                 <div class="ro" id="flashcard-ro">${flashcardsData[0].ro}</div>
             </div>
@@ -87,6 +88,20 @@ function updateFlashcard() {
     const c = flashcardsData[currentCardIndex];
     de.textContent = c.de;
     ro.textContent = c.ro;
+
+    // Iconiță (cu inel pe gen) — doar la cardurile cu substantiv
+    const pic = document.getElementById('flashcard-pic');
+    if (pic) {
+        if (c.icon) {
+            pic.style.display = 'flex';
+            pic.className = 'flashcard-pic ring-' + (c.gen || 'x');
+            pic.innerHTML = '<img src="images/icons/' + c.icon + '.svg" alt="">';
+        } else {
+            pic.style.display = 'none';
+            pic.innerHTML = '';
+        }
+    }
+
     card.classList.remove('flipped');
     counter.textContent = `Card ${currentCardIndex + 1} / ${flashcardsData.length}`;
     if (prevBtn) prevBtn.disabled = currentCardIndex === 0;

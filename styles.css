@@ -1305,3 +1305,59 @@ body {
     margin: 14px auto 0;
     border-radius: 2px;
 }
+
+/* ============================================
+   BRAND LOGO real în header (rebrand iconițe iunie 2026)
+   ============================================ */
+.brand-logo { display: block; max-width: 240px; width: 60%; height: auto; margin: 4px auto 14px; }
+
+/* Fluture brand (înlocuiește ʚଓ / 🦋) */
+.bf-bullet { height: 1.05em; width: auto; vertical-align: -0.18em; margin-right: .35em; }
+.navbar-logo .bf-bullet { height: 1.2em; vertical-align: -0.22em; }
+.bf-inline { height: 1.15em; width: auto; vertical-align: -0.2em; }
+
+/* ============================================
+   Bildwörter — der/die/das colorat + iconițe
+   ============================================ */
+.g-m { color: #2563eb; font-weight: 700; }
+.g-f { color: #dc2626; font-weight: 700; }
+.g-n { color: #16a34a; font-weight: 700; }
+
+.abc-details { margin: 0 0 22px; }
+.abc-details > summary {
+    list-style: none; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    background: linear-gradient(135deg, #047857, #065f46);
+    color: #FBF7EF; padding: 14px 20px; border-radius: 12px;
+    font-weight: 700; font-size: 1.05rem;
+}
+.abc-details > summary::-webkit-details-marker { display: none; }
+.abc-details > summary .ab-arrow { transition: transform .2s; }
+.abc-details[open] > summary .ab-arrow { transform: rotate(180deg); }
+
+.abc-legend { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; font-weight: 700; font-size: .95rem; margin: 16px 0 18px; }
+.abc-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.abc-legend .dot { width: 15px; height: 15px; border-radius: 50%; display: inline-block; }
+.abc-legend .dot.d-m { background: #2563eb; }
+.abc-legend .dot.d-f { background: #dc2626; }
+.abc-legend .dot.d-n { background: #16a34a; }
+
+.abc-sub { color: #065f46; font-weight: 800; font-size: 1.02rem; margin: 22px 0 12px; border-bottom: 2px solid #D4A574; padding-bottom: 5px; }
+.abc-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin: 6px 0 4px; }
+.abc-card { background: #fff; border-radius: 14px; padding: 12px 4px 10px; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,.06); }
+.abc-circle { width: 78px; height: 78px; margin: 0 auto 8px; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,.08); border: 4px solid #D4A574; }
+.abc-circle.ring-m { border-color: #2563eb; }
+.abc-circle.ring-f { border-color: #dc2626; }
+.abc-circle.ring-n { border-color: #16a34a; }
+.abc-circle img { width: 54px; height: 54px; display: block; }
+.abc-card .ab-word { font-size: .92rem; font-weight: 600; }
+@media (max-width: 768px) {
+    .abc-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Flashcard — iconiță + inel pe gen */
+.flashcard-pic { width: 96px; height: 96px; margin: 0 auto 14px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: #fff; box-shadow: 0 5px 16px rgba(0,0,0,.10); border: 4px solid #D4A574; }
+.flashcard-pic.ring-m { border-color: #2563eb; }
+.flashcard-pic.ring-f { border-color: #dc2626; }
+.flashcard-pic.ring-n { border-color: #16a34a; }
+.flashcard-pic img { width: 64px; height: 64px; display: block; }

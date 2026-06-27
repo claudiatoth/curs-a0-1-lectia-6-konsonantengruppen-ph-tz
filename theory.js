@@ -4,6 +4,53 @@
 // ============================================
 
 const theoryHTML = `
+    <!-- HERO: Bildwörter pe grupuri de consoane — der/die/das colorat + iconițe -->
+    <details open class="abc-details">
+        <summary>🎨 Bildwörter — cuvintele lecției, pe grupuri de consoane <span class="ab-arrow">▼</span></summary>
+        <div class="theory-box" style="background:#F5F0E8;border-left:4px solid #D4A574;">
+            <h4>💡 De ce culori?</h4>
+            <p>Fiecare substantiv german are un <strong>gen</strong> și un <strong>articol</strong>. Ca să-l reții ușor, îl colorăm: <span class="g-m">der</span> = albastru · <span class="g-f">die</span> = roșu · <span class="g-n">das</span> = verde. Mai jos, cuvintele lecției grupate exact pe grupul de consoane pe care îl înveți.</p>
+        </div>
+        <div class="abc-legend">
+            <span><i class="dot d-m"></i><span class="g-m">der</span> — masculin</span>
+            <span><i class="dot d-f"></i><span class="g-f">die</span> — feminin</span>
+            <span><i class="dot d-n"></i><span class="g-n">das</span> — neutru</span>
+        </div>
+
+        <div class="abc-sub">🇵🇭 Grupul Ph = „f"</div>
+        <div class="abc-grid">
+            <div class="abc-card"><div class="abc-circle ring-n"><img src="images/icons/ph-foto.svg" alt="das Photo"></div><div class="ab-word"><span class="g-n">das</span> Photo</div></div>
+            <div class="abc-card"><div class="abc-circle ring-m"><img src="images/icons/ph-phoenix.svg" alt="der Phönix"></div><div class="ab-word"><span class="g-m">der</span> Phönix</div></div>
+        </div>
+
+        <div class="abc-sub">🌬 Grupul Pf = sunet unic „pf"</div>
+        <div class="abc-grid">
+            <div class="abc-card"><div class="abc-circle ring-f"><img src="images/icons/pf-pfote.svg" alt="die Pfote"></div><div class="ab-word"><span class="g-f">die</span> Pfote</div></div>
+            <div class="abc-card"><div class="abc-circle ring-m"><img src="images/icons/pf-apfel.svg" alt="der Apfel"></div><div class="ab-word"><span class="g-m">der</span> Apfel</div></div>
+            <div class="abc-card"><div class="abc-circle ring-n"><img src="images/icons/pf-pferd.svg" alt="das Pferd"></div><div class="ab-word"><span class="g-n">das</span> Pferd</div></div>
+            <div class="abc-card"><div class="abc-circle ring-f"><img src="images/icons/pf-pfanne.svg" alt="die Pfanne"></div><div class="ab-word"><span class="g-f">die</span> Pfanne</div></div>
+        </div>
+
+        <div class="abc-sub">🔀 Grupul Ch — cele 4 sunete</div>
+        <div class="abc-grid">
+            <div class="abc-card"><div class="abc-circle ring-n"><img src="images/icons/ch-buch.svg" alt="das Buch"></div><div class="ab-word"><span class="g-n">das</span> Buch</div></div>
+            <div class="abc-card"><div class="abc-circle ring-n"><img src="images/icons/ch-maedchen.svg" alt="das Mädchen"></div><div class="ab-word"><span class="g-n">das</span> Mädchen</div></div>
+        </div>
+
+        <div class="abc-sub">🆎 Grupul Ck = „c" tăios</div>
+        <div class="abc-grid">
+            <div class="abc-card"><div class="abc-circle ring-m"><img src="images/icons/ck-klecks.svg" alt="der Klecks"></div><div class="ab-word"><span class="g-m">der</span> Klecks</div></div>
+        </div>
+
+        <div class="abc-sub">🆎 Grupul Tz = „ț" tăios</div>
+        <div class="abc-grid">
+            <div class="abc-card"><div class="abc-circle ring-f"><img src="images/icons/tz-katze.svg" alt="die Katze"></div><div class="ab-word"><span class="g-f">die</span> Katze</div></div>
+            <div class="abc-card"><div class="abc-circle ring-m"><img src="images/icons/tz-blitz.svg" alt="der Blitz"></div><div class="ab-word"><span class="g-m">der</span> Blitz</div></div>
+            <div class="abc-card"><div class="abc-circle ring-n"><img src="images/icons/tz-herz.svg" alt="das Herz"></div><div class="ab-word"><span class="g-n">das</span> Herz</div></div>
+            <div class="abc-card"><div class="abc-circle ring-m"><img src="images/icons/tz-platz.svg" alt="der Platz"></div><div class="ab-word"><span class="g-m">der</span> Platz</div></div>
+        </div>
+    </details>
+
     <!-- 0: Ph/ph -->
     <div class="sub-section">
         <div class="sub-section-header" onclick="toggleSubSection(0)">
